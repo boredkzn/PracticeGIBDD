@@ -20,21 +20,41 @@ namespace PracticeGIBDD
     public partial class Main : Window
     {
         MainWindow mainWindow = new MainWindow();
+        
         private Users _user;
+        
         public Main(Users userEnt)
         {
             _user = userEnt;           
             InitializeComponent();
-            MainW.DataContext = _user;
-            
-
-
+            MainW.DataContext = _user;            
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
             mainWindow.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            DriversWindow driversWindow = new DriversWindow(_user);
+            driversWindow.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            FineWindow fineWindow = new FineWindow(_user);
+            fineWindow.Show();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            DocumentWindow docWindow = new DocumentWindow(_user);
+            docWindow.Show();
         }
     }
 }

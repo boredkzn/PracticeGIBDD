@@ -26,3 +26,9 @@ C:\Users\User\source\repos\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\P
 C:\Users\User\source\repos\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\PracticeGIBDD.csproj.CopyComplete
 C:\Users\User\source\repos\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\Main.g.cs
 C:\Users\User\source\repos\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\Main.baml
+C:\Users\User\source\repos\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\DriversWindow.g.cs
+C:\Users\User\source\repos\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\DriversWindow.baml
+C:\Users\User\source\repos\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\FineWindow.g.cs
+C:\Users\User\source\repos\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\FineWindow.baml
+C:\Users\User\source\repos\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\DocumentWindow.g.cs
+C:\Users\User\source\repos\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\DocumentWindow.baml

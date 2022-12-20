@@ -65,8 +65,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DocumentWindow.xaml.cs">
+      <DependentUpon>DocumentWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Drivers.cs">
       <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DriversWindow.xaml.cs">
+      <DependentUpon>DriversWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="DTP.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -79,6 +85,9 @@
     </Compile>
     <Compile Include="FineStatuses.cs">
       <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FineWindow.xaml.cs">
+      <DependentUpon>FineWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Licences.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -127,6 +136,18 @@
     <Compile Include="Users.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Page Include="DocumentWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DriversWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FineWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Main.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

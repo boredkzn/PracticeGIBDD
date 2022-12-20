@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PracticeGIBDD"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="350">
+        Title="MainWindow" Height="450" Width="350"
+        WindowStartupLocation="CenterScreen">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="#FF4A6156"/>
