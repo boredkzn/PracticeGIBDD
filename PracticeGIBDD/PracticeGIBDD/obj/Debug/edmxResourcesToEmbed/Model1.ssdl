@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище GIBDDModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Drivers">
+    <Key>
+      <PropertyRef Name="IdGuid" />
+    </Key>
+    <Property Name="IdGuid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Middlename" Type="nvarchar" MaxLength="150" />
+    <Property Name="PassportSerial" Type="int" Nullable="false" />
+    <Property Name="PassportNumber" Type="int" Nullable="false" />
+    <Property Name="Postcode" Type="int" Nullable="false" />
+    <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="AddressLife" Type="nvarchar(max)" />
+    <Property Name="Company" Type="nvarchar(max)" />
+    <Property Name="Jobname" Type="nvarchar(max)" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Photo" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="DTP">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="NameStreet" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="NumberHome" Type="int" Nullable="false" />
+    <Property Name="RoadSection" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TrafficLane" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MoreDetails" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CountVictims" Type="int" Nullable="false" />
+    <Property Name="Comment" Type="nvarchar(max)" />
+    <Property Name="Date" Type="date" Nullable="false" />
+    <Property Name="Time" Type="time" Precision="7" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DTP_Driver">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="IdDriver" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="IdDtp" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Fine">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="CarNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RegionNameRU" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="LicenceNumber" Type="int" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="Photo" Type="varbinary(max)" Nullable="false" />
+    <Property Name="IdStatus" Type="int" Nullable="false" />
+    <Property Name="IdDriver" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="FineStatuses">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Licences">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="IdGuidDriver" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="LicenceDate" Type="datetime" Nullable="false" />
+    <Property Name="ExpireDate" Type="datetime" Nullable="false" />
+    <Property Name="Categories" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="LicenceSeries" Type="int" Nullable="false" />
+    <Property Name="LicenceNumber" Type="int" Nullable="false" />
+    <Property Name="VIN" Type="nvarchar" MaxLength="50" />
+    <Property Name="Manufacturer" Type="nvarchar" MaxLength="50" />
+    <Property Name="Model" Type="nvarchar" MaxLength="200" />
+    <Property Name="Year" Type="int" />
+    <Property Name="Weight" Type="int" />
+    <Property Name="Color" Type="int" />
+    <Property Name="TypeOfDrive" Type="nvarchar" MaxLength="200" />
+    <Property Name="IdStatus" Type="int" Nullable="false" />
+    <Property Name="CarNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="IdRegion" Type="int" />
+  </EntityType>
+  <EntityType Name="LicenceStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Photo_DTPDriver">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="IdDTPDriver" Type="int" Nullable="false" />
+    <Property Name="Photo" Type="varbinary(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Regions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="RegionNameEN" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="RegionNameRU" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Code" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="OKATOcode" Type="int" Nullable="false" />
+    <Property Name="ISO3166_2" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StatusHistory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="IdLicence" Type="int" Nullable="false" />
+    <Property Name="Comment" Type="nvarchar(max)" />
+    <Property Name="DateChange" Type="datetime" Nullable="false" />
+    <Property Name="OldStatus" Type="int" Nullable="false" />
+    <Property Name="NewStatus" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__DTP_Drive__IdDri__36B12243">
+    <End Role="Drivers" Type="Self.Drivers" Multiplicity="1" />
+    <End Role="DTP_Driver" Type="Self.DTP_Driver" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Drivers">
+        <PropertyRef Name="IdGuid" />
+      </Principal>
+      <Dependent Role="DTP_Driver">
+        <PropertyRef Name="IdDriver" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DTP_Drive__IdDtp__37A5467C">
+    <End Role="DTP" Type="Self.DTP" Multiplicity="1" />
+    <End Role="DTP_Driver" Type="Self.DTP_Driver" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DTP">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DTP_Driver">
+        <PropertyRef Name="IdDtp" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Fine__IdStatus__38996AB5">
+    <End Role="FineStatuses" Type="Self.FineStatuses" Multiplicity="1" />
+    <End Role="Fine" Type="Self.Fine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FineStatuses">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Fine">
+        <PropertyRef Name="IdStatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Licences__IdGuid__398D8EEE">
+    <End Role="Drivers" Type="Self.Drivers" Multiplicity="1" />
+    <End Role="Licences" Type="Self.Licences" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Drivers">
+        <PropertyRef Name="IdGuid" />
+      </Principal>
+      <Dependent Role="Licences">
+        <PropertyRef Name="IdGuidDriver" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Licences__IdStat__3A81B327">
+    <End Role="LicenceStatus" Type="Self.LicenceStatus" Multiplicity="1" />
+    <End Role="Licences" Type="Self.Licences" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LicenceStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Licences">
+        <PropertyRef Name="IdStatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Photo_DTP__IdDTP__3B75D760">
+    <End Role="DTP_Driver" Type="Self.DTP_Driver" Multiplicity="1" />
+    <End Role="Photo_DTPDriver" Type="Self.Photo_DTPDriver" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DTP_Driver">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Photo_DTPDriver">
+        <PropertyRef Name="IdDTPDriver" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__StatusHis__IdLic__3C69FB99">
+    <End Role="Licences" Type="Self.Licences" Multiplicity="1" />
+    <End Role="StatusHistory" Type="Self.StatusHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Licences">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StatusHistory">
+        <PropertyRef Name="IdLicence" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Fine_Drivers">
+    <End Role="Drivers" Type="Self.Drivers" Multiplicity="0..1" />
+    <End Role="Fine" Type="Self.Fine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Drivers">
+        <PropertyRef Name="IdGuid" />
+      </Principal>
+      <Dependent Role="Fine">
+        <PropertyRef Name="IdDriver" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Licences_Regions">
+    <End Role="Regions" Type="Self.Regions" Multiplicity="0..1" />
+    <End Role="Licences" Type="Self.Licences" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Regions">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Licences">
+        <PropertyRef Name="IdRegion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище GIBDDModelContainer">
+    <EntitySet Name="Drivers" EntityType="Self.Drivers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DTP" EntityType="Self.DTP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DTP_Driver" EntityType="Self.DTP_Driver" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Fine" EntityType="Self.Fine" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FineStatuses" EntityType="Self.FineStatuses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Licences" EntityType="Self.Licences" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LicenceStatus" EntityType="Self.LicenceStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Photo_DTPDriver" EntityType="Self.Photo_DTPDriver" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Regions" EntityType="Self.Regions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StatusHistory" EntityType="Self.StatusHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__DTP_Drive__IdDri__36B12243" Association="Self.FK__DTP_Drive__IdDri__36B12243">
+      <End Role="Drivers" EntitySet="Drivers" />
+      <End Role="DTP_Driver" EntitySet="DTP_Driver" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DTP_Drive__IdDtp__37A5467C" Association="Self.FK__DTP_Drive__IdDtp__37A5467C">
+      <End Role="DTP" EntitySet="DTP" />
+      <End Role="DTP_Driver" EntitySet="DTP_Driver" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Fine__IdStatus__38996AB5" Association="Self.FK__Fine__IdStatus__38996AB5">
+      <End Role="FineStatuses" EntitySet="FineStatuses" />
+      <End Role="Fine" EntitySet="Fine" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Licences__IdGuid__398D8EEE" Association="Self.FK__Licences__IdGuid__398D8EEE">
+      <End Role="Drivers" EntitySet="Drivers" />
+      <End Role="Licences" EntitySet="Licences" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Licences__IdStat__3A81B327" Association="Self.FK__Licences__IdStat__3A81B327">
+      <End Role="LicenceStatus" EntitySet="LicenceStatus" />
+      <End Role="Licences" EntitySet="Licences" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Photo_DTP__IdDTP__3B75D760" Association="Self.FK__Photo_DTP__IdDTP__3B75D760">
+      <End Role="DTP_Driver" EntitySet="DTP_Driver" />
+      <End Role="Photo_DTPDriver" EntitySet="Photo_DTPDriver" />
+    </AssociationSet>
+    <AssociationSet Name="FK__StatusHis__IdLic__3C69FB99" Association="Self.FK__StatusHis__IdLic__3C69FB99">
+      <End Role="Licences" EntitySet="Licences" />
+      <End Role="StatusHistory" EntitySet="StatusHistory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Fine_Drivers" Association="Self.FK_Fine_Drivers">
+      <End Role="Drivers" EntitySet="Drivers" />
+      <End Role="Fine" EntitySet="Fine" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Licences_Regions" Association="Self.FK_Licences_Regions">
+      <End Role="Regions" EntitySet="Regions" />
+      <End Role="Licences" EntitySet="Licences" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -23,6 +23,39 @@ namespace PracticeGIBDD
         public MainWindow()
         {
             InitializeComponent();
+            LoginTB.Text = "sham";
+            PasswordTB.Password = "12345";
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Registration registration = new Registration();
+            registration.Show();
+            this.Hide();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            using(GIBDDEntities ent = new GIBDDEntities())
+            {
+                var findUser = ent.Users.Where(f => f.Login == LoginTB.Text && f.Password == PasswordTB.Password).ToList();
+                if(findUser.Count > 0)
+                {
+                    Main main = new Main(findUser.First());
+                    MessageBox.Show("Успешно");
+                    main.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Неверный логин или пароль!");
+                }
+            }
         }
     }
 }

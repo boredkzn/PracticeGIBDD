@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="22955f4745a64174b9bbced04b464f00" Name="Diagram1">
+        <EntityTypeShape EntityType="GIBDDModel.Drivers" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GIBDDModel.DTP" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GIBDDModel.DTP_Driver" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GIBDDModel.Fine" Width="1.5" PointX="6" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GIBDDModel.FineStatuses" Width="1.5" PointX="3.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GIBDDModel.Licences" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GIBDDModel.LicenceStatus" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GIBDDModel.Photo_DTPDriver" Width="1.5" PointX="5.25" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GIBDDModel.Regions" Width="1.5" PointX="0.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="GIBDDModel.StatusHistory" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GIBDDModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GIBDDModel.Users" Width="1.5" PointX="8.75" PointY="5.875" IsExpanded="true" />
+        <AssociationConnector Association="GIBDDModel.FK__DTP_Drive__IdDri__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="GIBDDModel.FK__Licences__IdGuid__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="GIBDDModel.FK_Fine_Drivers" ManuallyRouted="false" />
+        <AssociationConnector Association="GIBDDModel.FK__DTP_Drive__IdDtp__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="GIBDDModel.FK__Photo_DTP__IdDTP__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="GIBDDModel.FK__Fine__IdStatus__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="GIBDDModel.FK__Licences__IdStat__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="GIBDDModel.FK__StatusHis__IdLic__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="GIBDDModel.FK_Licences_Regions" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
