@@ -11,7 +11,8 @@ namespace PracticeGIBDD
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class Drivers
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -22,20 +23,46 @@ namespace PracticeGIBDD
             this.Fine = new HashSet<Fine>();
         }
     
-        public System.Guid IdGuid { get; set; }
+        public Guid IdGuid { get; set; }
+
+        [Required]
         public string Name { get; set; }
+        [Required]
         public string Surname { get; set; }
+        [Required]
         public string Middlename { get; set; }
+        [Required]
         public int PassportSerial { get; set; }
+        [Required]
         public int PassportNumber { get; set; }
+
+        private string _passport;
+        public string Passport
+        {
+            get => PassportSerial.ToString() + " " + PassportNumber.ToString();
+            set => _passport = value;
+        }
+
         public int Postcode { get; set; }
+        [Required]
         public string Address { get; set; }
+        [Required]
         public string AddressLife { get; set; }
         public string Company { get; set; }
         public string Jobname { get; set; }
+        [Required]
         public string Phone { get; set; }
+        [Required]
         public string Email { get; set; }
-        public string Photo { get; set; }
+
+        private string photoLala;
+
+        public string SecondSer => Name + " " + Surname + " " + Middlename;
+        [Required]
+        public string Photo {
+            get => photoLala.Contains(@":") ? photoLala : @"C:\Users\79196\Source\Repos\boredkzn\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\Resources\" + photoLala;
+            set => photoLala = value; 
+        }
         public string Description { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

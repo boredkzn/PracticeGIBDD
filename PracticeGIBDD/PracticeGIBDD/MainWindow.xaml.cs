@@ -23,8 +23,8 @@ namespace PracticeGIBDD
         public MainWindow()
         {
             InitializeComponent();
-            LoginTB.Text = "sham";
-            PasswordTB.Password = "12345";
+            LoginTB.Text = "inspector";
+            PasswordTB.Password = "inspector";
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

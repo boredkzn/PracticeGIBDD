@@ -43,8 +43,8 @@
         <Button Content="Выход" Grid.ColumnSpan="3" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center" Width="250" Height="50" Background="#FF99B3C1" BorderBrush="White" Foreground="Black" FontFamily="Times New Roman" FontSize="14" Click="Button_Click" />
         
         <Button Content="Просмотр журнала водителей" Grid.Column="2" Grid.Row="3" Grid.RowSpan="2" Grid.ColumnSpan="2" Background="#FF99B3C1" BorderBrush="White" Foreground="Black" FontFamily="Times New Roman" FontSize="14" Click="Button_Click_1"></Button>
-        <Button Content="Просмотр журнала штрафов" Grid.Column="2" Grid.Row="6" Grid.RowSpan="2" Grid.ColumnSpan="2" Background="#FF99B3C1" BorderBrush="White" Foreground="Black" FontFamily="Times New Roman" FontSize="14" Click="Button_Click_2"></Button>
-        <Button Content="Просмотр журнала В/У" Grid.Column="2" Grid.Row="9" Grid.RowSpan="2" Grid.ColumnSpan="2" Background="#FF99B3C1" BorderBrush="White" Foreground="Black" FontFamily="Times New Roman" FontSize="14" Click="Button_Click_3"></Button>
+        <Button Content="Просмотр журнала штрафов" Grid.Column="2" Grid.Row="9" Grid.RowSpan="2" Grid.ColumnSpan="2" Background="#FF99B3C1" BorderBrush="White" Foreground="Black" FontFamily="Times New Roman" FontSize="14" Click="Button_Click_2"></Button>
+        <Button Content="Просмотр журнала В/У" Grid.Column="2" Grid.Row="6" Grid.RowSpan="2" Grid.ColumnSpan="2" Background="#FF99B3C1" BorderBrush="White" Foreground="Black" FontFamily="Times New Roman" FontSize="14" Click="Button_Click_3"></Button>
         
     </Grid>
 </Window>

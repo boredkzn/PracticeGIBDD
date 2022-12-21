@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DotNetProjects.Input.Toolkit, Version=6.1.94.0, Culture=neutral, PublicKeyToken=79778c5f2eed289b, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetProjects.WpfToolkit.Input.6.1.94\lib\net40\DotNetProjects.Input.Toolkit.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -65,6 +68,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddDriverWindow.xaml.cs">
+      <DependentUpon>AddDriverWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DocumentWindow.xaml.cs">
       <DependentUpon>DocumentWindow.xaml</DependentUpon>
     </Compile>
@@ -79,6 +85,12 @@
     </Compile>
     <Compile Include="DTP_Driver.cs">
       <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EditDocumentWindow.xaml.cs">
+      <DependentUpon>EditDocumentWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EditDriverWindow.xaml.cs">
+      <DependentUpon>EditDriverWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Fine.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -136,11 +148,23 @@
     <Compile Include="Users.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Page Include="AddDriverWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DocumentWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DriversWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditDocumentWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditDriverWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -221,6 +245,300 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\flag_vietnam.png" />
+    <None Include="Resources\flag_venezuela.png" />
+    <None Include="Resources\flag_vatican.png" />
+    <None Include="Resources\flag_usa.png" />
+    <None Include="Resources\flag_uruguay.png" />
+    <None Include="Resources\flag_united_kingdom.png" />
+    <None Include="Resources\flag_united_arab_emirates.png" />
+    <None Include="Resources\flag_turkey.png" />
+    <None Include="Resources\flag_thailand.png" />
+    <None Include="Resources\flag_switzerland.png" />
+    <None Include="Resources\flag_sweden.png" />
+    <None Include="Resources\flag_spain.png" />
+    <None Include="Resources\flag_south_korea.png" />
+    <None Include="Resources\flag_south_africa.png" />
+    <None Include="Resources\flag_slovakia.png" />
+    <None Include="Resources\flag_singapore.png" />
+    <None Include="Resources\flag_senegal.png" />
+    <None Include="Resources\flag_saudi_arabia.png" />
+    <None Include="Resources\flag_russia.png" />
+    <None Include="Resources\flag_romania.png" />
+    <None Include="Resources\flag_qatar.png" />
+    <None Include="Resources\flag_puerto_rico.png" />
+    <None Include="Resources\flag_portugal.png" />
+    <None Include="Resources\flag_poland.png" />
+    <None Include="Resources\flag_philippines.png" />
+    <None Include="Resources\flag_peru.png" />
+    <None Include="Resources\flag_paraguay.png" />
+    <None Include="Resources\flag_panama.png" />
+    <None Include="Resources\flag_norway.png" />
+    <None Include="Resources\flag_niger.png" />
+    <None Include="Resources\flag_nicaragua.png" />
+    <None Include="Resources\flag_new_zealand.png" />
+    <None Include="Resources\flag_netherlands.png" />
+    <None Include="Resources\flag_montenegro.png" />
+    <None Include="Resources\flag_monaco.png" />
+    <None Include="Resources\flag_moldova.png" />
+    <None Include="Resources\flag_mexico.png" />
+    <None Include="Resources\flag_mauritius.png" />
+    <None Include="Resources\flag_malta.png" />
+    <None Include="Resources\flag_mali.png" />
+    <None Include="Resources\flag_malaysia.png" />
+    <None Include="Resources\flag_madagascar.png" />
+    <None Include="Resources\flag_macedonia.png" />
+    <None Include="Resources\flag_macau.png" />
+    <None Include="Resources\flag_luxembourg.png" />
+    <None Include="Resources\flag_lithuania.png" />
+    <None Include="Resources\flag_liechtenstein.png" />
+    <None Include="Resources\flag_latvia.png" />
+    <None Include="Resources\flag_kenya.png" />
+    <None Include="Resources\flag_jordan.png" />
+    <None Include="Resources\flag_japan.png" />
+    <None Include="Resources\flag_jamaica.png" />
+    <None Include="Resources\flag_ivory_coast.png" />
+    <None Include="Resources\flag_italy.png" />
+    <None Include="Resources\flag_israel.png" />
+    <None Include="Resources\flag_ireland.png" />
+    <None Include="Resources\flag_indonesia.png" />
+    <None Include="Resources\flag_india.png" />
+    <None Include="Resources\flag_hungary.png" />
+    <None Include="Resources\flag_hong_kong.png" />
+    <None Include="Resources\flag_honduras.png" />
+    <None Include="Resources\flag_guinea-bissau.png" />
+    <None Include="Resources\flag_guinea.png" />
+    <None Include="Resources\flag_guatemala.png" />
+    <None Include="Resources\flag_greece.png" />
+    <None Include="Resources\flag_germany.png" />
+    <None Include="Resources\flag_france.png" />
+    <None Include="Resources\flag_finland.png" />
+    <None Include="Resources\flag_estonia.png" />
+    <None Include="Resources\flag_equatorial_guinea.png" />
+    <None Include="Resources\flag_el_salvador.png" />
+    <None Include="Resources\flag_egypt.png" />
+    <None Include="Resources\flag_ecuador.png" />
+    <None Include="Resources\flag_dominican_republic.png" />
+    <None Include="Resources\flag_denmark.png" />
+    <None Include="Resources\flag_czech_republic.png" />
+    <None Include="Resources\flag_croatia.png" />
+    <None Include="Resources\flag_colombia.png" />
+    <None Include="Resources\flag_chinese_taipei.png" />
+    <None Include="Resources\flag_china.png" />
+    <None Include="Resources\flag_chile.png" />
+    <None Include="Resources\flag_central_african_republic.png" />
+    <None Include="Resources\flag_canada.png" />
+    <None Include="Resources\flag_cameroon.png" />
+    <None Include="Resources\flag_bulgaria.png" />
+    <None Include="Resources\flag_brazil.png" />
+    <None Include="Resources\flag_botswana.png" />
+    <None Include="Resources\flag_belgium.png" />
+    <None Include="Resources\flag_austria.png" />
+    <None Include="Resources\flag_australia.png" />
+    <None Include="Resources\flag_argentina.png" />
+    <None Include="Resources\flag_andorra.png" />
+    <Resource Include="Resources\driver_license_template.jpg" />
+    <Resource Include="Resources\driver_licence_example.jpg" />
+    <None Include="Resources\200-sleepy.png" />
+    <None Include="Resources\199-angry.png" />
+    <None Include="Resources\198-kiss.png" />
+    <None Include="Resources\197-in-love.png" />
+    <None Include="Resources\196-in-love-1.png" />
+    <None Include="Resources\195-kiss-1.png" />
+    <None Include="Resources\194-happy.png" />
+    <None Include="Resources\193-in-love-2.png" />
+    <None Include="Resources\192-smile.png" />
+    <None Include="Resources\191-sad.png" />
+    <None Include="Resources\190-sad-1.png" />
+    <None Include="Resources\189-happy-1.png" />
+    <None Include="Resources\188-sad-2.png" />
+    <None Include="Resources\187-rich.png" />
+    <None Include="Resources\186-angry-1.png" />
+    <None Include="Resources\185-sad-3.png" />
+    <None Include="Resources\184-sad-4.png" />
+    <None Include="Resources\183-sad-5.png" />
+    <None Include="Resources\182-sad-6.png" />
+    <None Include="Resources\181-furious.png" />
+    <None Include="Resources\180-surprised.png" />
+    <None Include="Resources\179-surprised-1.png" />
+    <None Include="Resources\178-surprised-2.png" />
+    <None Include="Resources\177-easter.png" />
+    <None Include="Resources\176-shocked.png" />
+    <None Include="Resources\175-cool.png" />
+    <None Include="Resources\174-hypnotized.png" />
+    <None Include="Resources\173-in-love-3.png" />
+    <None Include="Resources\172-nerd.png" />
+    <None Include="Resources\171-thinking.png" />
+    <None Include="Resources\170-happy-2.png" />
+    <None Include="Resources\169-confused.png" />
+    <None Include="Resources\168-muted.png" />
+    <None Include="Resources\167-thinking-1.png" />
+    <None Include="Resources\166-happy-3.png" />
+    <None Include="Resources\165-cool-1.png" />
+    <None Include="Resources\164-sad-7.png" />
+    <None Include="Resources\163-crying.png" />
+    <None Include="Resources\162-surprised-3.png" />
+    <None Include="Resources\161-muted-1.png" />
+    <None Include="Resources\160-crying-1.png" />
+    <None Include="Resources\159-crying-2.png" />
+    <None Include="Resources\158-nerd-1.png" />
+    <None Include="Resources\157-angel.png" />
+    <None Include="Resources\156-sick.png" />
+    <None Include="Resources\155-rich-1.png" />
+    <None Include="Resources\154-dead.png" />
+    <None Include="Resources\153-injury.png" />
+    <None Include="Resources\152-outrage.png" />
+    <None Include="Resources\151-sick-1.png" />
+    <None Include="Resources\150-tongue.png" />
+    <None Include="Resources\149-baby.png" />
+    <None Include="Resources\148-bang.png" />
+    <None Include="Resources\147-tired.png" />
+    <None Include="Resources\146-in-love-4.png" />
+    <None Include="Resources\145-wink.png" />
+    <None Include="Resources\144-santa-claus.png" />
+    <None Include="Resources\143-pirate.png" />
+    <None Include="Resources\142-sleeping.png" />
+    <None Include="Resources\141-in-love-5.png" />
+    <None Include="Resources\140-3d-glasses.png" />
+    <None Include="Resources\139-surprised-4.png" />
+    <None Include="Resources\138-smart.png" />
+    <None Include="Resources\137-smart-1.png" />
+    <None Include="Resources\136-tongue-1.png" />
+    <None Include="Resources\135-selfie.png" />
+    <None Include="Resources\134-surprised-5.png" />
+    <None Include="Resources\133-birthday-boy.png" />
+    <None Include="Resources\132-nerd-2.png" />
+    <None Include="Resources\131-sad-8.png" />
+    <None Include="Resources\130-confused-1.png" />
+    <None Include="Resources\129-cool-2.png" />
+    <None Include="Resources\128-in-love-6.png" />
+    <None Include="Resources\127-angry-2.png" />
+    <None Include="Resources\126-graduated.png" />
+    <None Include="Resources\125-sick-2.png" />
+    <None Include="Resources\124-muted-2.png" />
+    <None Include="Resources\123-surprised-6.png" />
+    <None Include="Resources\122-cheering.png" />
+    <None Include="Resources\121-crying-3.png" />
+    <None Include="Resources\120-nerd-3.png" />
+    <None Include="Resources\119-greed.png" />
+    <None Include="Resources\118-nerd-4.png" />
+    <None Include="Resources\117-confused-2.png" />
+    <None Include="Resources\116-music.png" />
+    <None Include="Resources\115-pirate-1.png" />
+    <None Include="Resources\114-greed-1.png" />
+    <None Include="Resources\113-kiss-2.png" />
+    <None Include="Resources\112-nerd-5.png" />
+    <None Include="Resources\111-muted-3.png" />
+    <None Include="Resources\110-crying-4.png" />
+    <None Include="Resources\109-nerd-6.png" />
+    <None Include="Resources\108-nerd-7.png" />
+    <None Include="Resources\107-ugly.png" />
+    <None Include="Resources\106-in-love-7.png" />
+    <None Include="Resources\105-kiss-3.png" />
+    <None Include="Resources\104-in-love-8.png" />
+    <None Include="Resources\103-in-love-9.png" />
+    <None Include="Resources\102-muted-4.png" />
+    <None Include="Resources\101-nerd-8.png" />
+    <None Include="Resources\100-whistle.png" />
+    <None Include="Resources\099-greed-2.png" />
+    <None Include="Resources\098-nerd-9.png" />
+    <None Include="Resources\097-sad-9.png" />
+    <None Include="Resources\096-tongue-2.png" />
+    <None Include="Resources\095-scared.png" />
+    <None Include="Resources\094-ugly-1.png" />
+    <None Include="Resources\093-ugly-2.png" />
+    <None Include="Resources\092-outrage-1.png" />
+    <None Include="Resources\091-sad-10.png" />
+    <None Include="Resources\090-happy-4.png" />
+    <None Include="Resources\089-angel-1.png" />
+    <None Include="Resources\088-father.png" />
+    <None Include="Resources\087-father-1.png" />
+    <None Include="Resources\086-kiss-4.png" />
+    <None Include="Resources\085-sad-11.png" />
+    <None Include="Resources\084-thief.png" />
+    <None Include="Resources\083-sweat.png" />
+    <None Include="Resources\082-cyclops.png" />
+    <None Include="Resources\081-pain.png" />
+    <None Include="Resources\080-zombie.png" />
+    <None Include="Resources\079-crying-5.png" />
+    <None Include="Resources\078-cool-3.png" />
+    <None Include="Resources\077-shocked-1.png" />
+    <None Include="Resources\076-happy-5.png" />
+    <None Include="Resources\075-shocked-2.png" />
+    <None Include="Resources\074-in-love-10.png" />
+    <None Include="Resources\073-sad-12.png" />
+    <None Include="Resources\072-sick-3.png" />
+    <None Include="Resources\071-heart.png" />
+    <None Include="Resources\070-late.png" />
+    <None Include="Resources\069-happy-6.png" />
+    <None Include="Resources\068-father-2.png" />
+    <None Include="Resources\067-sun.png" />
+    <None Include="Resources\066-happy-7.png" />
+    <None Include="Resources\065-crying-6.png" />
+    <None Include="Resources\064-police.png" />
+    <None Include="Resources\063-hungry.png" />
+    <None Include="Resources\062-happy-8.png" />
+    <None Include="Resources\061-graduated-1.png" />
+    <None Include="Resources\060-sad-13.png" />
+    <None Include="Resources\059-nurse.png" />
+    <None Include="Resources\058-popcorn.png" />
+    <None Include="Resources\057-music-1.png" />
+    <None Include="Resources\056-vampire.png" />
+    <None Include="Resources\055-tongue-3.png" />
+    <None Include="Resources\054-ugly-3.png" />
+    <None Include="Resources\053-tired-1.png" />
+    <None Include="Resources\052-happy-9.png" />
+    <None Include="Resources\051-happy-10.png" />
+    <None Include="Resources\050-flower.png" />
+    <None Include="Resources\049-robot.png" />
+    <None Include="Resources\048-moon.png" />
+    <None Include="Resources\047-phone-call.png" />
+    <None Include="Resources\046-dubious.png" />
+    <None Include="Resources\045-star.png" />
+    <None Include="Resources\044-dead-1.png" />
+    <None Include="Resources\043-baby-boy.png" />
+    <None Include="Resources\042-book.png" />
+    <None Include="Resources\041-thinking-2.png" />
+    <None Include="Resources\040-surprised-7.png" />
+    <None Include="Resources\039-cyclops-1.png" />
+    <None Include="Resources\038-angry-3.png" />
+    <None Include="Resources\037-happy-11.png" />
+    <None Include="Resources\036-angry-4.png" />
+    <None Include="Resources\035-sad-14.png" />
+    <None Include="Resources\034-angry-5.png" />
+    <None Include="Resources\033-cool-4.png" />
+    <None Include="Resources\032-bored.png" />
+    <None Include="Resources\031-crying-7.png" />
+    <None Include="Resources\030-crying-8.png" />
+    <None Include="Resources\029-happy-12.png" />
+    <None Include="Resources\028-happy-13.png" />
+    <None Include="Resources\027-laughing.png" />
+    <None Include="Resources\026-happy-14.png" />
+    <None Include="Resources\025-happy-15.png" />
+    <None Include="Resources\024-sweat-1.png" />
+    <None Include="Resources\023-laughing-1.png" />
+    <None Include="Resources\022-laughing-2.png" />
+    <None Include="Resources\021-wink-1.png" />
+    <None Include="Resources\020-happy-16.png" />
+    <None Include="Resources\019-tongue-4.png" />
+    <None Include="Resources\018-surprised-8.png" />
+    <None Include="Resources\017-nervous.png" />
+    <None Include="Resources\016-sleeping-1.png" />
+    <None Include="Resources\015-smile-1.png" />
+    <None Include="Resources\014-tongue-5.png" />
+    <None Include="Resources\013-tongue-6.png" />
+    <None Include="Resources\012-tongue-7.png" />
+    <None Include="Resources\011-tired-2.png" />
+    <None Include="Resources\010-drool.png" />
+    <None Include="Resources\009-angry-6.png" />
+    <None Include="Resources\008-nervous-1.png" />
+    <None Include="Resources\007-nervous-2.png" />
+    <None Include="Resources\006-shocked-3.png" />
+    <None Include="Resources\005-shocked-4.png" />
+    <None Include="Resources\004-surprised-9.png" />
+    <None Include="Resources\003-happy-17.png" />
+    <None Include="Resources\002-cool-5.png" />
+    <None Include="Resources\001-happy-18.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

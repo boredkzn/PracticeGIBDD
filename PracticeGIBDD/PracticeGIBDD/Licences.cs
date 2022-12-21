@@ -15,6 +15,9 @@ namespace PracticeGIBDD
     public partial class Licences
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+
+        GIBDDEntities entities = new GIBDDEntities();
+
         public Licences()
         {
             this.StatusHistory = new HashSet<StatusHistory>();
@@ -27,6 +30,9 @@ namespace PracticeGIBDD
         public string Categories { get; set; }
         public int LicenceSeries { get; set; }
         public int LicenceNumber { get; set; }
+
+        public string SeriaPrava => LicenceSeries.ToString() + " " + LicenceNumber.ToString();
+
         public string VIN { get; set; }
         public string Manufacturer { get; set; }
         public string Model { get; set; }

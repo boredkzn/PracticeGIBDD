@@ -32,29 +32,33 @@ namespace PracticeGIBDD
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Hide();
+            
             mainWindow.Show();
+            this.Hide();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            this.Hide();
+            
             DriversWindow driversWindow = new DriversWindow(_user);
             driversWindow.Show();
+            this.Hide();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            this.Hide();
+            
             FineWindow fineWindow = new FineWindow(_user);
             fineWindow.Show();
+            this.Hide();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            this.Hide();
+            
             DocumentWindow docWindow = new DocumentWindow(_user);
             docWindow.Show();
+            this.Hide();
         }
     }
 }

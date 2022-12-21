@@ -20,12 +20,16 @@ namespace PracticeGIBDD
     public partial class DriversWindow : Window
     {
         private Users _user;
+        GIBDDEntities entities = new GIBDDEntities();
         
         public DriversWindow(Users userEnt)
         {
+            var drivers = entities.Drivers.ToList();
             _user = userEnt;
             InitializeComponent();
             MainW.DataContext = _user;
+            SearchTB.ItemsSource = drivers.Select(f => f.Address).ToList();
+            Drivers.ItemsSource = drivers;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -33,6 +37,44 @@ namespace PracticeGIBDD
             Main main = new Main(_user);
             main.Show();
             this.Hide();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var searchText = SearchTB.Text;
+            var findFilter = entities.Drivers.ToList().FindAll(f => f.Address.Contains(searchText));
+            Drivers.ItemsSource = findFilter;
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            new AddDriverWindow(_user).Show();
+            this.Hide();
+        }
+
+        private void OpenButton_Click(object sender, RoutedEventArgs e)
+        {
+            Drivers driver = (sender as Button)?.DataContext as Drivers;
+            new EditDriverWindow(_user, driver).Show();
+            this.Hide();
+
+        }
+
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult result = MessageBox.Show("Вы точно хотите удалить?", "Удаление", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if(result == MessageBoxResult.Yes)
+            {
+                Drivers driver = (sender as Button)?.DataContext as Drivers;
+                var findDriver = entities.Drivers.ToList().Find(f => f.IdGuid == driver.IdGuid);
+                var findLicen = entities.Licences.ToList().Find(f => f.IdGuidDriver == driver.IdGuid);
+                entities.Licences.Remove(findLicen);
+                entities.Drivers.Remove(findDriver);
+                entities.SaveChanges();
+                Drivers.ItemsSource = entities.Drivers.ToList();
+            }
+            
+
         }
     }
 }

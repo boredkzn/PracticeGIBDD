@@ -118,7 +118,892 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="driver_licence_example" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\driver_licence_example.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver_license_template" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\driver_license_template.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_andorra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_andorra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_argentina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_argentina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_australia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_australia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_austria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_austria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_belgium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_belgium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_botswana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_botswana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_brazil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_brazil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_bulgaria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_bulgaria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_cameroon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_cameroon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_canada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_canada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_central_african_republic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_central_african_republic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_chile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_chile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_china" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_china.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_chinese_taipei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_chinese_taipei.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_colombia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_colombia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_croatia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_croatia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_czech_republic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_czech_republic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_denmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_denmark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_dominican_republic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_dominican_republic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_ecuador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_ecuador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_egypt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_egypt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_el_salvador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_el_salvador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_equatorial_guinea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_equatorial_guinea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_estonia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_estonia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_finland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_finland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_france" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_france.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_germany" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_germany.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_greece" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_greece.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_guatemala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_guatemala.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_guinea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_guinea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_guinea_bissau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_guinea-bissau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_honduras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_honduras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_hong_kong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_hong_kong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_hungary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_hungary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_india" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_india.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_indonesia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_indonesia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_ireland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_ireland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_israel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_israel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_italy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_italy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_ivory_coast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_ivory_coast.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_jamaica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_jamaica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_japan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_japan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_jordan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_jordan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_kenya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_kenya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_latvia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_latvia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_liechtenstein" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_liechtenstein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_lithuania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_lithuania.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_luxembourg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_luxembourg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_macau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_macau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_macedonia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_macedonia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_madagascar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_madagascar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_malaysia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_malaysia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_mali" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_mali.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_malta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_malta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_mauritius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_mauritius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_mexico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_mexico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_moldova" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_moldova.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_monaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_monaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_montenegro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_montenegro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_netherlands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_netherlands.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_new_zealand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_new_zealand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_nicaragua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_nicaragua.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_niger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_niger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_norway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_norway.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_panama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_panama.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_paraguay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_paraguay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_peru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_peru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_philippines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_philippines.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_poland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_poland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_portugal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_portugal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_puerto_rico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_puerto_rico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_qatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_qatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_romania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_romania.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_russia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_russia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_saudi_arabia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_saudi_arabia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_senegal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_senegal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_singapore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_singapore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_slovakia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_slovakia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_south_africa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_south_africa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_south_korea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_south_korea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_spain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_spain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_sweden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_sweden.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_switzerland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_switzerland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_thailand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_thailand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_turkey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_turkey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_united_arab_emirates" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_united_arab_emirates.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_united_kingdom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_united_kingdom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_uruguay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_uruguay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_usa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_usa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_vatican" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_vatican.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_venezuela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_venezuela.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_vietnam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\flag_vietnam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="gibdd_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\gibdd_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gibdd_logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\gibdd_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_001_happy_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\001-happy-18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_002_cool_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\002-cool-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_003_happy_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\003-happy-17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_004_surprised_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\004-surprised-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_005_shocked_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\005-shocked-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_006_shocked_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\006-shocked-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_007_nervous_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\007-nervous-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_008_nervous_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\008-nervous-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_009_angry_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\009-angry-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_010_drool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\010-drool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_011_tired_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\011-tired-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_012_tongue_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\012-tongue-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_013_tongue_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\013-tongue-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_014_tongue_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\014-tongue-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_015_smile_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\015-smile-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_016_sleeping_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\016-sleeping-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_017_nervous" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\017-nervous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_018_surprised_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\018-surprised-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_019_tongue_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\019-tongue-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_020_happy_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\020-happy-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_021_wink_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\021-wink-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_022_laughing_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\022-laughing-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_023_laughing_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\023-laughing-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_024_sweat_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\024-sweat-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_025_happy_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\025-happy-15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_026_happy_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\026-happy-14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_027_laughing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\027-laughing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_028_happy_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\028-happy-13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_029_happy_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\029-happy-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_030_crying_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\030-crying-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_031_crying_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\031-crying-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_032_bored" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\032-bored.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_033_cool_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\033-cool-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_034_angry_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\034-angry-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_035_sad_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\035-sad-14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_036_angry_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\036-angry-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_037_happy_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\037-happy-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_038_angry_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\038-angry-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_039_cyclops_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\039-cyclops-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_040_surprised_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\040-surprised-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_041_thinking_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\041-thinking-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_042_book" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\042-book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_043_baby_boy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\043-baby-boy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_044_dead_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\044-dead-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_045_star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\045-star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_046_dubious" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\046-dubious.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_047_phone_call" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\047-phone-call.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_048_moon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\048-moon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_049_robot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\049-robot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_050_flower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\050-flower.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_051_happy_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\051-happy-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_052_happy_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\052-happy-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_053_tired_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\053-tired-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_054_ugly_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\054-ugly-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_055_tongue_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\055-tongue-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_056_vampire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\056-vampire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_057_music_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\057-music-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_058_popcorn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\058-popcorn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_059_nurse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\059-nurse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_060_sad_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\060-sad-13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_061_graduated_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\061-graduated-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_062_happy_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\062-happy-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_063_hungry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\063-hungry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_064_police" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\064-police.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_065_crying_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\065-crying-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_066_happy_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\066-happy-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_067_sun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\067-sun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_068_father_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\068-father-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_069_happy_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\069-happy-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_070_late" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\070-late.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_071_heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\071-heart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_072_sick_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\072-sick-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_073_sad_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\073-sad-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_074_in_love_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\074-in-love-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_075_shocked_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\075-shocked-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_076_happy_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\076-happy-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_077_shocked_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\077-shocked-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_078_cool_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\078-cool-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_079_crying_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\079-crying-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_080_zombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\080-zombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_081_pain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\081-pain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_082_cyclops" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\082-cyclops.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_083_sweat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\083-sweat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_084_thief" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\084-thief.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_085_sad_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\085-sad-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_086_kiss_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\086-kiss-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_087_father_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\087-father-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_088_father" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\088-father.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_089_angel_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\089-angel-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_090_happy_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\090-happy-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_091_sad_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\091-sad-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_092_outrage_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\092-outrage-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_093_ugly_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\093-ugly-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_094_ugly_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\094-ugly-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_095_scared" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\095-scared.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_096_tongue_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\096-tongue-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_097_sad_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\097-sad-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_098_nerd_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\098-nerd-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_099_greed_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\099-greed-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_100_whistle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\100-whistle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_101_nerd_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\101-nerd-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_102_muted_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\102-muted-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_103_in_love_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\103-in-love-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_104_in_love_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\104-in-love-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_105_kiss_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\105-kiss-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_106_in_love_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\106-in-love-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_107_ugly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\107-ugly.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_108_nerd_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\108-nerd-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_109_nerd_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\109-nerd-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_110_crying_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\110-crying-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_111_muted_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\111-muted-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_112_nerd_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\112-nerd-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_113_kiss_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\113-kiss-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_114_greed_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\114-greed-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_115_pirate_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\115-pirate-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_116_music" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\116-music.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_117_confused_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\117-confused-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_118_nerd_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\118-nerd-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_119_greed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\119-greed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_120_nerd_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\120-nerd-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_121_crying_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\121-crying-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_122_cheering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\122-cheering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_123_surprised_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\123-surprised-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_124_muted_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\124-muted-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_125_sick_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\125-sick-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_126_graduated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\126-graduated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_127_angry_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\127-angry-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_128_in_love_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\128-in-love-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_129_cool_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\129-cool-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_130_confused_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\130-confused-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_131_sad_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\131-sad-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_132_nerd_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\132-nerd-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_133_birthday_boy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\133-birthday-boy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_134_surprised_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\134-surprised-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_135_selfie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\135-selfie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_136_tongue_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\136-tongue-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_137_smart_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\137-smart-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_138_smart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\138-smart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_139_surprised_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\139-surprised-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_140_3d_glasses" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\140-3d-glasses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_141_in_love_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\141-in-love-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_142_sleeping" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\142-sleeping.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_143_pirate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\143-pirate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_144_santa_claus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\144-santa-claus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_145_wink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\145-wink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_146_in_love_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\146-in-love-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_147_tired" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\147-tired.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_148_bang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\148-bang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_149_baby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\149-baby.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_150_tongue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\150-tongue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_151_sick_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\151-sick-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_152_outrage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\152-outrage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_153_injury" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\153-injury.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_154_dead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\154-dead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_155_rich_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\155-rich-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_156_sick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\156-sick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_157_angel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\157-angel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_158_nerd_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\158-nerd-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_159_crying_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\159-crying-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_160_crying_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\160-crying-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_161_muted_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\161-muted-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_162_surprised_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\162-surprised-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_163_crying" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\163-crying.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_164_sad_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\164-sad-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_165_cool_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\165-cool-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_166_happy_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\166-happy-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_167_thinking_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\167-thinking-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_168_muted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\168-muted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_169_confused" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\169-confused.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_170_happy_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\170-happy-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_171_thinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\171-thinking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_172_nerd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\172-nerd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_173_in_love_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\173-in-love-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_174_hypnotized" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\174-hypnotized.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_175_cool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\175-cool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_176_shocked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\176-shocked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_177_easter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\177-easter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_178_surprised_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\178-surprised-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_179_surprised_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\179-surprised-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_180_surprised" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\180-surprised.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_181_furious" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\181-furious.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_182_sad_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\182-sad-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_183_sad_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\183-sad-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_184_sad_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\184-sad-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_185_sad_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\185-sad-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_186_angry_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\186-angry-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_187_rich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\187-rich.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_188_sad_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\188-sad-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_189_happy_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\189-happy-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_190_sad_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\190-sad-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_191_sad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\191-sad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_192_smile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\192-smile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_193_in_love_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\193-in-love-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_194_happy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\194-happy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_195_kiss_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\195-kiss-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_196_in_love_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\196-in-love-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_197_in_love" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\197-in-love.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_198_kiss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\198-kiss.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_199_angry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\199-angry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_200_sleepy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\200-sleepy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
