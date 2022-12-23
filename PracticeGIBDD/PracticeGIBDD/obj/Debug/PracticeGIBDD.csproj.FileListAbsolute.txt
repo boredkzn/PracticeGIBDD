@@ -73,3 +73,9 @@ C:\Users\79196\Source\Repos\boredkzn\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\o
 C:\Users\79196\Source\Repos\boredkzn\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\AddDriverWindow.baml
 C:\Users\79196\Source\Repos\boredkzn\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\EditDocumentWindow.g.cs
 C:\Users\79196\Source\Repos\boredkzn\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\EditDocumentWindow.baml
+C:\Users\79196\Source\Repos\boredkzn\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\AddDocumentWindow.g.cs
+C:\Users\79196\Source\Repos\boredkzn\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\AddDocumentWindow.baml
+C:\Users\79196\Source\Repos\boredkzn\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\AddFineWindow.g.cs
+C:\Users\79196\Source\Repos\boredkzn\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\AddFineWindow.baml
+C:\Users\79196\Source\Repos\boredkzn\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\EditFineWindow.g.cs
+C:\Users\79196\Source\Repos\boredkzn\PracticeGIBDD\PracticeGIBDD\PracticeGIBDD\obj\Debug\EditFineWindow.baml

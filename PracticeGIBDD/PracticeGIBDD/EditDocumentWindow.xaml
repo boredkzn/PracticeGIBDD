@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PracticeGIBDD"
         mc:Ignorable="d"
-        Title="Main" Height="650" Width="600"
-        WindowStartupLocation="CenterScreen">
+        Title="Редактирование В/У" Height="790" Width="600"
+        WindowStartupLocation="CenterScreen"
+        Icon="Resources/gibdd_logo.png">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="#FF4A6156"/>
@@ -51,28 +52,39 @@
             <RowDefinition Height="10"></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
+
 
         </Grid.RowDefinitions>
-        <TextBox x:Name="LicenceDate" Text="{Binding LicenceDate}" Grid.Column="2" Grid.Row="13" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
-        <TextBox x:Name="ExpireDate" Text="{Binding ExpireDate}" Grid.Column="2" Grid.Row="15" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
-        <TextBox x:Name="Categories" Text="{Binding Categories}" Grid.Column="2" Grid.Row="17" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
-        <TextBox x:Name="LicenceSeries" Text="{Binding LicenceSeries}" Grid.Column="2" Grid.Row="19" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
-        <TextBox x:Name="LicenceNumber" Text="{Binding LicenceNumber}" Grid.Column="2" Grid.Row="21" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
-        <TextBox x:Name="LicenceStatus" Text="{Binding LicenceStatus.Name}" Grid.Column="2" Grid.Row="23" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
+        <DatePicker x:Name="LicenceDate" SelectedDate="{Binding LicenceDate}" Grid.Column="2" Grid.Row="19" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="Black" />
+        <DatePicker x:Name="ExpireDate" SelectedDate="{Binding ExpireDate}" Grid.Column="2" Grid.Row="21" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="Black" />
+        <TextBox x:Name="Categories" Text="{Binding Categories}" Grid.Column="2" Grid.Row="23" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
+        <TextBox x:Name="LicenceSeries" Text="{Binding LicenceSeries}" Grid.Column="2" Grid.Row="25" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
+        <TextBox x:Name="LicenceNumber" Text="{Binding LicenceNumber}" Grid.Column="2" Grid.Row="27" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
+        <ComboBox x:Name="LicenceStatus"  SelectedItem="{Binding LicenceStatus.Name}" Grid.Column="2" Grid.Row="29" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="Black" />
 
 
-        <TextBox x:Name="VIN" Text="{Binding VIN}" Grid.Column="4" Grid.Row="13" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
-        <TextBox x:Name="Manufacturer" Text="{Binding Manufacturer}" Grid.Column="4" Grid.Row="15" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
-        <TextBox x:Name="Model" Text="{Binding Model}" Grid.Column="4" Grid.Row="17" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
-        <TextBox x:Name="Year" Text="{Binding Year}" Grid.Column="4" Grid.Row="19" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
-        <TextBox x:Name="Weight" Text="{Binding Weight}" Grid.Column="4" Grid.Row="21" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
-        <TextBox x:Name="Color" Text="{Binding Color}" Grid.Column="4" Grid.Row="23" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
+        <TextBox x:Name="VIN" Text="{Binding VIN}" Grid.Column="4" Grid.Row="19" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
+        <TextBox x:Name="Manufacturer" Text="{Binding Manufacturer}" Grid.Column="4" Grid.Row="21" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
+        <TextBox x:Name="Model" Text="{Binding Model}" Grid.Column="4" Grid.Row="23" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
+        <TextBox x:Name="Year" Text="{Binding Year}" Grid.Column="4" Grid.Row="25" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
+        <TextBox x:Name="Weight" Text="{Binding Weight}" Grid.Column="4" Grid.Row="27" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="White" />
+        <ComboBox x:Name="Color" SelectedItem="{Binding CarColors.ColorName}" Grid.Column="4" Grid.Row="29" Background="#FF254150" FontSize="22" FontFamily="Times New Roman" Foreground="Black" />
 
         <Label x:Name="na" Content="{Binding Name}" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Foreground="White" Width="95" Height="30" FontSize="16"   ></Label>
 
         <Image Source="Resources/driver_license_template.jpg" Grid.Column="1" Grid.Row="3" Grid.RowSpan="9" Grid.ColumnSpan="4"  ></Image>
 
-        <Image Grid.Row="5"  Grid.Column="2" Grid.RowSpan="5" Source="{Binding Photo}" Margin="9.667,25,66.667,0" />
+        <Image Source="Resources/carN.png" Grid.Column="1" Grid.Row="13" Grid.RowSpan="5" Grid.ColumnSpan="4" Width="350" ></Image>
+        <Label Content="{Binding CarNumber}" Grid.Column="1" Margin="143,15.667,74,27.333" Grid.Row="13" Grid.RowSpan="5" FontWeight="Bold" FontSize="50" Grid.ColumnSpan="3" FontFamily="Yu Gothic UI" />
+
+
+        <Image Grid.Row="5"  Grid.Column="2" Grid.RowSpan="5" Source="{Binding Drivers.Photo}" Margin="9.667,25,66.667,0" />
 
         <Label Content="Фамилия" Width="100" Grid.ColumnSpan="2" Grid.Column="2" Margin="112.667,16,74,1" Grid.Row="5" Grid.RowSpan="2" FontWeight="Bold" FontFamily="Sitka Banner"/>
         <Label Content="Имя Отчество" Width="100" Grid.ColumnSpan="2" Grid.Column="2" Margin="112.667,7,74,10" Grid.Row="6" Grid.RowSpan="2" FontWeight="Bold" FontFamily="Sitka Banner"/>
@@ -81,24 +93,45 @@
         <Image Source="Resources/gibdd_logo.png" Grid.Column="4" Grid.Row="1"  ></Image>
         <Button Content="Назад" Grid.ColumnSpan="3" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center" Width="250" Height="50" Background="#FF99B3C1" BorderBrush="White" Foreground="Black" FontFamily="Times New Roman" FontSize="14" Click="Button_Click" />
         <Label Content="Водительское удостоверение" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White" Width="253" Height="30" FontSize="16" Margin="28.667,0,5,0"    ></Label>
-        <Button Content="Редактировать" Grid.Column="4" Grid.Row="25" Background="#FF99B3C1" BorderBrush="White" Foreground="Black" FontFamily="Times New Roman" FontSize="14" Click="Button_Click_2" Height="32" Margin="0,0,0.333,9.667" Grid.RowSpan="2" VerticalAlignment="Bottom"></Button>
-        <Label Content="Дата выдачи:" Grid.Column="1" Grid.Row="13" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
-        <Label Content="Дата до*:" Grid.Column="1" Grid.Row="15" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
-        <Label Content="Категория*:" Grid.Column="1" Grid.Row="17" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
-        <Label Content="Серия" Grid.Column="1" Grid.Row="19" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
-        <Label Content="Номер" Grid.Column="1" Grid.Row="21" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
-        <Label Content="Статус" Grid.Column="1" Grid.Row="23" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
+        <Button Content="Редактировать" Grid.Column="4" Grid.Row="31" Background="#FF99B3C1" BorderBrush="White" Foreground="Black" FontFamily="Times New Roman" FontSize="14" Click="Button_Click_2" Height="32" Margin="0,0,0.333,9.667" Grid.RowSpan="2" VerticalAlignment="Bottom"></Button>
+        <Label Content="Дата выдачи:" Grid.Column="1" Grid.Row="19" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
+        <Label Content="Дата до*:" Grid.Column="1" Grid.Row="21" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
+        <Label Content="Категория*:" Grid.Column="1" Grid.Row="23" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
+        <Label Content="Серия" Grid.Column="1" Grid.Row="25" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
+        <Label Content="Номер" Grid.Column="1" Grid.Row="27" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
+        <Label Content="Статус" Grid.Column="1" Grid.Row="29" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
 
 
-        <Label Content="VIN" Grid.Column="3" Grid.Row="13" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
-        <Label Content="Производитель" Grid.Column="3" Grid.Row="15" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
-        <Label Content="Модель*" Grid.Column="3" Grid.Row="17" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
-        <Label Content="Год*" Grid.Column="3" Grid.Row="19" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
-        <Label Content="Вес*" Grid.Column="3" Grid.Row="21" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
-        <Label Content="Цвет" Grid.Column="3" Grid.Row="23" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
+        <Label Content="VIN" Grid.Column="3" Grid.Row="19" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
+        <Label Content="Производитель" Grid.Column="3" Grid.Row="21" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
+        <Label Content="Модель*" Grid.Column="3" Grid.Row="23" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
+        <Label Content="Год*" Grid.Column="3" Grid.Row="25" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
+        <Label Content="Вес*" Grid.Column="3" Grid.Row="27" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
+        <Label Content="Цвет" Grid.Column="3" Grid.Row="29" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White"  FontSize="16"    ></Label>
         <Label Content="{Binding Drivers.Surname}" Width="100" Grid.ColumnSpan="2" Grid.Column="2" Margin="112.667,26,74,23" Grid.Row="5" Grid.RowSpan="3" FontFamily="Sitka Banner"/>
-        <Label Content="{Binding Drivers.Name}" Width="100" Grid.ColumnSpan="2" Grid.Column="2" Margin="112.667,9,74,8" Grid.Row="7" Grid.RowSpan="2" FontFamily="Sitka Banner"/>
+        <Label Content="{Binding Drivers.nameMiddle}" Width="100" Grid.ColumnSpan="2" Grid.Column="2" Margin="112.667,9,74,8" Grid.Row="7" Grid.RowSpan="2" FontFamily="Sitka Banner"/>
 
+        <Label Content="{Binding LicenceDate}" FontWeight="Bold" Width="100"  Grid.ColumnSpan="2" Grid.Column="2" Margin="112.667,18,74,0" Grid.Row="7" FontFamily="Sitka Banner" VerticalAlignment="Top" Height="24" Grid.RowSpan="2"/>
+        <Label Content="{Binding Regions.RegionNameRU}" FontWeight="Bold"  Margin="112.667,28.667,10,0" FontFamily="Sitka Banner" VerticalAlignment="Top" Height="22" Grid.ColumnSpan="2" Grid.Column="2" Grid.Row="7" Grid.RowSpan="3" />
+        <Label Content="{Binding LicenceDate}" FontWeight="Bold" Width="100" Grid.ColumnSpan="2" Grid.Column="2" Margin="112.667,3,74,0" Grid.Row="9" FontFamily="Sitka Banner" VerticalAlignment="Top" Height="25"/>
+        <Label Content="{Binding ExpireDate}" FontWeight="Bold" Width="100" Grid.ColumnSpan="2" Grid.Column="3" Margin="48.333,3,138.333,0" Grid.Row="9" FontFamily="Sitka Banner" VerticalAlignment="Top" Height="25"/>
+        <Label Content="ГИБДД" FontWeight="Bold" Grid.ColumnSpan="2" Grid.Column="2" Margin="112.667,17,121,0" Grid.Row="9" FontFamily="Sitka Banner" VerticalAlignment="Top" Height="22" Grid.RowSpan="2"/>
+        <Label Content="{Binding Regions.Code}" FontWeight="Bold" Grid.Column="3" Margin="14.333,16,80,0" Grid.Row="9" FontFamily="Sitka Banner" VerticalAlignment="Top" Height="26" Grid.RowSpan="2"/>
+
+        <Label Content="{Binding licString}" FontWeight="Bold" Width="100" Grid.ColumnSpan="2" Grid.Column="2" Margin="112.667,30,74,0" Grid.Row="9" FontFamily="Sitka Banner" VerticalAlignment="Top" Height="25" Grid.RowSpan="3"/>
+        <Label Content="{Binding Categories}" Width="100" FontWeight="Bold" Grid.ColumnSpan="2" Grid.Column="2" Margin="112.667,0,74,0" Grid.Row="11" FontFamily="Sitka Banner" VerticalAlignment="Top" Height="22"/>
+
+
+
+        <Label Content="1." Grid.Column="2" FontWeight="Bold" Margin="76.667,17,43.667,1" Grid.Row="5" Grid.RowSpan="2" FontSize="9" Foreground="#FF651F65"/>
+        <Label Content="2." Grid.Column="2" FontWeight="Bold" Margin="76.667,8,43.667,10" Grid.Row="6" Grid.RowSpan="2" FontSize="9" Foreground="#FF651F65"/>
+        <Label Content="3." Grid.Column="2" FontWeight="Bold" Margin="76.667,19,43.667,31" Grid.Row="7" Grid.RowSpan="3" FontSize="9" Foreground="#FF651F65"/>
+        <Label Content="4a)." Grid.Column="2" FontWeight="Bold" Margin="76.667,4,43.667,4" Grid.Row="9" FontSize="9" Foreground="#FF651F65"/>
+        <Label Content="4c)." Grid.Column="2" FontWeight="Bold" Margin="76.667,17,43.667,1" Grid.Row="9" FontSize="9" Foreground="#FF651F65" Grid.RowSpan="2"/>
+        <Label Content="5." Grid.Column="2" FontWeight="Bold" Margin="76.667,31,43.667,19" Grid.Row="9" FontSize="9" Foreground="#FF651F65" Grid.RowSpan="3" />
+        <Label Content="6." Grid.Column="1" FontWeight="Bold" Margin="143,31,120.667,19" Grid.Row="9" FontSize="9" Foreground="#FF651F65" Grid.RowSpan="3" Grid.ColumnSpan="2" />
+        <Label Content="7." Grid.Column="2" FontWeight="Bold" Margin="76.667,1,43.667,7" Grid.Row="11" FontSize="9" Foreground="#FF651F65" />
+        <Label Content="{Binding Regions.Code}" Grid.Column="3" Margin="92.333,9.667,129.333,9.667" Grid.Row="13" Grid.RowSpan="4" FontWeight="Bold" FontSize="48" FontFamily="Yu Gothic UI" Grid.ColumnSpan="2" />
 
 
     </Grid>

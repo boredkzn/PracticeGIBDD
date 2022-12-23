@@ -35,7 +35,7 @@ namespace PracticeGIBDD
         public virtual DbSet<Photo_DTPDriver> Photo_DTPDriver { get; set; }
         public virtual DbSet<Regions> Regions { get; set; }
         public virtual DbSet<StatusHistory> StatusHistory { get; set; }
-        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<Users> Users { get; set; }
+        public virtual DbSet<CarColors> CarColors { get; set; }
     }
 }

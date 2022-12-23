@@ -57,6 +57,8 @@ namespace PracticeGIBDD
 
         private string photoLala;
 
+        public string nameMiddle => Name + " " + Middlename;
+
         public string SecondSer => Name + " " + Surname + " " + Middlename;
         [Required]
         public string Photo {

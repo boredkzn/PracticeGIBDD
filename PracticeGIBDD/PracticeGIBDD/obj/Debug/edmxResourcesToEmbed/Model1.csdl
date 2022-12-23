@@ -98,6 +98,7 @@
     <NavigationProperty Name="LicenceStatus" Relationship="Self.FK__Licences__IdStat__3A81B327" FromRole="Licences" ToRole="LicenceStatus" />
     <NavigationProperty Name="StatusHistory" Relationship="Self.FK__StatusHis__IdLic__3C69FB99" FromRole="Licences" ToRole="StatusHistory" />
     <NavigationProperty Name="Regions" Relationship="Self.FK_Licences_Regions" FromRole="Licences" ToRole="Regions" />
+    <NavigationProperty Name="CarColors" Relationship="GIBDDModel.FK__Licences__Color__440B1D61" FromRole="Licences" ToRole="CarColors" />
   </EntityType>
   <EntityType Name="LicenceStatus">
     <Key>
@@ -139,16 +140,6 @@
     <Property Name="OldStatus" Type="Int32" Nullable="false" />
     <Property Name="NewStatus" Type="Int32" Nullable="false" />
     <NavigationProperty Name="Licences" Relationship="Self.FK__StatusHis__IdLic__3C69FB99" FromRole="StatusHistory" ToRole="Licences" />
-  </EntityType>
-  <EntityType Name="sysdiagrams">
-    <Key>
-      <PropertyRef Name="diagram_id" />
-    </Key>
-    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="principal_id" Type="Int32" Nullable="false" />
-    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="version" Type="Int32" />
-    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
   </EntityType>
   <EntityType Name="Users">
     <Key>
@@ -278,7 +269,6 @@
     <EntitySet Name="Photo_DTPDriver" EntityType="Self.Photo_DTPDriver" />
     <EntitySet Name="Regions" EntityType="Self.Regions" />
     <EntitySet Name="StatusHistory" EntityType="Self.StatusHistory" />
-    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
     <EntitySet Name="Users" EntityType="Self.Users" />
     <AssociationSet Name="FK__DTP_Drive__IdDri__36B12243" Association="Self.FK__DTP_Drive__IdDri__36B12243">
       <End Role="Drivers" EntitySet="Drivers" />
@@ -316,5 +306,35 @@
       <End Role="Regions" EntitySet="Regions" />
       <End Role="Licences" EntitySet="Licences" />
     </AssociationSet>
+    <EntitySet Name="CarColors" EntityType="GIBDDModel.CarColors" />
+    <AssociationSet Name="FK__Licences__Color__440B1D61" Association="GIBDDModel.FK__Licences__Color__440B1D61">
+      <End Role="CarColors" EntitySet="CarColors" />
+      <End Role="Licences" EntitySet="Licences" />
+    </AssociationSet>
   </EntityContainer>
+  <EntityType Name="CarColors">
+    <Key>
+      <PropertyRef Name="ColorNum" />
+    </Key>
+    <Property Name="ColorNum" Type="Int32" Nullable="false" />
+    <Property Name="ColorCode" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ColorName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="IsMettalic" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NameEN" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ColorNameEN" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Licences" Relationship="GIBDDModel.FK__Licences__Color__440B1D61" FromRole="CarColors" ToRole="Licences" />
+  </EntityType>
+  <Association Name="FK__Licences__Color__440B1D61">
+    <End Type="GIBDDModel.CarColors" Role="CarColors" Multiplicity="0..1" />
+    <End Type="GIBDDModel.Licences" Role="Licences" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CarColors">
+        <PropertyRef Name="ColorNum" />
+      </Principal>
+      <Dependent Role="Licences">
+        <PropertyRef Name="Color" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PracticeGIBDD"
         mc:Ignorable="d"
-        Title="Main" Height="650" Width="600"
-        WindowStartupLocation="CenterScreen">
+        Title="Водитель" Height="650" Width="600"
+        WindowStartupLocation="CenterScreen"
+        Icon="Resources/gibdd_logo.png">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="#FF4A6156"/>

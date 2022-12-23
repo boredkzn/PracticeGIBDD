@@ -44,6 +44,10 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
@@ -68,8 +72,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddDocumentWindow.xaml.cs">
+      <DependentUpon>AddDocumentWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AddDriverWindow.xaml.cs">
       <DependentUpon>AddDriverWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddFineWindow.xaml.cs">
+      <DependentUpon>AddFineWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CarColors.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="DocumentWindow.xaml.cs">
       <DependentUpon>DocumentWindow.xaml</DependentUpon>
@@ -91,6 +104,9 @@
     </Compile>
     <Compile Include="EditDriverWindow.xaml.cs">
       <DependentUpon>EditDriverWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EditFineWindow.xaml.cs">
+      <DependentUpon>EditFineWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Fine.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -142,13 +158,18 @@
     <Compile Include="StatusHistory.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="sysdiagrams.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
     <Compile Include="Users.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Page Include="AddDocumentWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AddDriverWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddFineWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -165,6 +186,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="EditDriverWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditFineWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -245,6 +270,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Resource Include="Resources\carN.png" />
     <None Include="Resources\flag_vietnam.png" />
     <None Include="Resources\flag_venezuela.png" />
     <None Include="Resources\flag_vatican.png" />

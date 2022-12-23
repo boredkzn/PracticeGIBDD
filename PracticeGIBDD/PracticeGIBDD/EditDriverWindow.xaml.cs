@@ -54,8 +54,7 @@ namespace PracticeGIBDD
                     driver.Email = Email.Text;
                     driver.Jobname = Jobname.Text;
                     gIBDD.SaveChanges();
-                    DriversWindow driversWindow = new DriversWindow(_user);
-                    driversWindow.Drivers.ItemsSource = gIBDD.Drivers.ToList();
+                    DriversWindow driversWindow = new DriversWindow(_user);                  
                     MessageBox.Show("Успешно");
 
                     driversWindow.Show();

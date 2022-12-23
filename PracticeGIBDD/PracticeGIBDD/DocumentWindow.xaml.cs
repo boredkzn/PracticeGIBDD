@@ -20,14 +20,16 @@ namespace PracticeGIBDD
     public partial class DocumentWindow : Window
     {
         private Users _user;
-        GIBDDEntities ent = new GIBDDEntities();
+        
         public DocumentWindow(Users userEnt)
         {
+            GIBDDEntities ent = new GIBDDEntities();
             var document = ent.Licences.ToList();
+            var drivers = ent.Drivers.ToList();
             _user = userEnt;
             InitializeComponent();
             MainW.DataContext = _user;
-            SearchTB.ItemsSource = document.Select(f => f.Drivers.SecondSer).ToList();
+            SearchTB.ItemsSource = drivers.Select(f => f.SecondSer).ToList();
             ListDocument.ItemsSource = ent.Licences.ToList();
         }
 
@@ -40,6 +42,7 @@ namespace PracticeGIBDD
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
+            GIBDDEntities ent = new GIBDDEntities();
             MessageBoxResult result = MessageBox.Show("Вы точно хотите удалить?", "Удаление", MessageBoxButton.YesNo, MessageBoxImage.Question);
             if (result == MessageBoxResult.Yes)
             {
@@ -56,18 +59,20 @@ namespace PracticeGIBDD
         private void OpenButton_Click(object sender, RoutedEventArgs e)
         {
 
-            Licences licence = (sender as Button)?.DataContext as Licences;
+            Licences licence = (sender as Button).DataContext as Licences;
             new EditDocumentWindow(_user, licence).Show();
             this.Hide();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-
+            new AddDocumentWindow(_user).Show();
+            this.Hide();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            GIBDDEntities ent = new GIBDDEntities();
             var searchText = SearchTB.Text;
             var findFilter = ent.Licences.ToList().FindAll(f => f.Drivers.SecondSer.Contains(searchText));
             ListDocument.ItemsSource = findFilter;

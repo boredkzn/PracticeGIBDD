@@ -68,7 +68,8 @@ namespace PracticeGIBDD
                 Drivers driver = (sender as Button)?.DataContext as Drivers;
                 var findDriver = entities.Drivers.ToList().Find(f => f.IdGuid == driver.IdGuid);
                 var findLicen = entities.Licences.ToList().Find(f => f.IdGuidDriver == driver.IdGuid);
-                entities.Licences.Remove(findLicen);
+                if(findLicen != null)
+                    entities.Licences.Remove(findLicen);
                 entities.Drivers.Remove(findDriver);
                 entities.SaveChanges();
                 Drivers.ItemsSource = entities.Drivers.ToList();
